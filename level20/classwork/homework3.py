@@ -1,0 +1,5 @@
+b1=int(input("enter your number:"))
+b2=int(input("enter your number:"))
+b3=int(input("enter your number:"))
+b4=int(input("enter your number:"))
+print(b3 + b1 - b2 > 0)

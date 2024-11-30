@@ -1,0 +1,25 @@
+body{   
+    background-color: black;
+    font-family: sans-serif
+    color black;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-shadow: 10px 10px 11px;
+    font-size: 18px;
+    background-color: black;
+    height: 80;
+    border: 40px solid red;
+    margin: 20px;
+}
+p{
+    color: purple;
+}
+* {
+ padding: 0;
+ margin: 0;
+ font-size: 17px
+}
+
+
+

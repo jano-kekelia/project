@@ -1,0 +1,1 @@
+list1=[1,1.15,"Hello", True,2,2.25,"bye", False,100, 1,1.19,"goodbye", True,2,2.10,"goodnight", False,10,[4,5,6][1,2,3]]

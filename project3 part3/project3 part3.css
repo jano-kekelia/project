@@ -1,0 +1,11 @@
+body{
+    background-image: url(image.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2,h3{
+    color: gold;
+    text-align: center;
+}

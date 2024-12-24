@@ -1,0 +1,19 @@
+body{
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h3, h2, p{
+    color: gold;
+    text-shadow: 40px 10px 10px;
+}
+
+label{
+    color: blue;
+}
+
+

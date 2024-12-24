@@ -4,8 +4,9 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
-h2,h3{
+h2,h3,p{
     color: gold;
     text-align: center;
 }

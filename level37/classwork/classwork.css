@@ -1,0 +1,41 @@
+#p-hello{
+    text-align: right;
+    text-decoration:underline dashed;
+}
+#p-world{
+    text-align: center;
+    text-decoration: line-through;
+}
+#p-1{   
+    text-decoration: double red ;
+}
+#p-Goal{
+    text-decoration: underline;
+    text-align: center;
+}
+#p-oriented{
+    text-align: right;
+    text-decoration: dotted line-through #00ff00;
+
+}
+#p-academy{
+    text-decoration: line-through ;
+}
+#p-is{
+    text-decoration: overline;
+}
+#p-the{
+    text-align: right;
+    color: green;
+    text-decoration: overline green;
+}
+#p-Best{
+    text-align: center;
+    color: grey;
+    text-decoration: overline grey;
+    text-transform: uppercase;
+}
+#p-one{
+    text-align: right;
+    text-decoration: underline dotted green;
+}

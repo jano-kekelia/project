@@ -1,0 +1,18 @@
+a {
+    color: #4A90E2; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-style: italic; 
+    text-transform: uppercase; 
+}
+
+/* Add an underline on hover */
+a:hover {
+    text-decoration: underline;
+    color: #D64F4F; 
+    background-color: #F0F0F0; 
+}
+
+a:visited {
+    color: #7B7B7B; 
+}

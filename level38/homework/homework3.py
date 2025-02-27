@@ -1,3 +1,4 @@
+#7-8
 input_string = "Hello World"
 
 swapped_string = input_string.swapcase()

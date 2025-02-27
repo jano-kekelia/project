@@ -6,7 +6,7 @@ a {
     text-transform: uppercase; 
 }
 
-/* Add an underline on hover */
+
 a:hover {
     text-decoration: underline;
     color: #D64F4F; 

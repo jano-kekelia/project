@@ -1,3 +1,4 @@
+#10
 def sentence_to_words(sentence):
     words = sentence.split()
     return words

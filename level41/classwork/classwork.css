@@ -1,0 +1,10 @@
+#ul-1 li:nth-child(odd){
+    list-style: lower-roman, outside, none;
+}
+#ul-20 li:nth-child(even){
+    list-style: lower-greek, inside, none;
+}
+
+li-1, li-20{
+    list-style: georgian, inside, none;
+}

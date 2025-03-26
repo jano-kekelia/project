@@ -1,0 +1,11 @@
+.styled-div {
+    margin: 20px;
+    padding: 10px; 
+    background-color: lightblue; 
+    border-radius: 15px; 
+    border: 2px solid #333; 
+    width: 300px;
+    height: 150px;
+    font-size: 16px;
+    text-align: center; 
+}

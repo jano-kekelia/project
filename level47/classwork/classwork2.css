@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+#div-1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    animation: div-1 3s infinite;
+}
+@keyframes div-1{
+    0%{
+        transform: scale(1) translateX(0px) translateY(0px);
+    }
+    25%{
+        transform: scale(1.5) translateX(200px) translateY(-200px)
+    }
+    50%{
+        transform: scale(2.5) translateX(400px) translateY(30px);
+    }
+    80%{
+        transform: scale(1) translateX(600px) translateY(-200px);
+    }
+    to{
+        transform: scale(0.4) translateX(700px) translateY(-160px)
+    }
+}

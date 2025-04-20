@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-id1{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    animation-name: bigboyshac;
+    animation-duration: 3s;
+}
+@keyframes bigboyshac{
+    from{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.5) translateX(100px);
+    }
+    40%{
+        transform: scale(1) translateX(200px);
+    }
+    60%{
+        transform: scale(1.5) translateX(300px);
+    }
+    80%{
+        transform: scale(1) translateX(400px);
+    }
+    to{
+        transform: scale(1.5) translateX(500px);
+    }
+}

@@ -1,0 +1,16 @@
+<div class="pulse"></div>
+
+<style>
+.pulse {
+  width: 60px;
+  height: 60px;
+  background: purple;
+  border-radius: 50%;
+  animation: pulseEffect 1.5s infinite;
+}
+
+@keyframes pulseEffect {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+</style>

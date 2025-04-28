@@ -1,0 +1,22 @@
+<div class="box box1"></div>
+<div class="box box2"></div>
+<div class="box box3"></div>
+
+<style>
+.box {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background: gray;
+  opacity: 0;
+  animation: appear 1s forwards;
+}
+
+.box1 { animation-delay: 0s; }
+.box2 { animation-delay: 1s; }
+.box3 { animation-delay: 2s; }
+
+@keyframes appear {
+  to { opacity: 1; }
+}
+</style>

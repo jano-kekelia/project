@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.Navbar{
+    background-color: lightblue;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.Navbar .logo{
+    font-weight: bold;
+}
+.Navbar ul{
+    list-style: None;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.Navbar ul li{
+    margin-left: 20px;
+}
+.Navbar ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.Navbar ul li a:hover{
+    text-decoration: underline;
+}

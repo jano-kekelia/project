@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#home {
+    text-align: center;
+    background-color: #009688;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+#home h2 {
+    font-size: 2.5rem;
+}
+
+#news {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+#news h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.news-item h3 {
+    font-size: 1.5rem;
+    display: flex;
+}
+.news-item img{
+    border-radius: 20px;
+    display: flex;
+}
+
+
+
+
+#teams {
+    padding: 40px 20px;
+    background-color: #eeeeee;
+}
+
+#teams h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.team {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#events {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+#events h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#events ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#events ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

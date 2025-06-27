@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დავალება 7</title>
+</head>
+<body>
+    <form id="colorForm">
+        <label for="favoriteColor">თქვენი საყვარელი ფერი: </label>
+        <input type="text" id="favoriteColor" required>
+        <br>
+        <button type="submit">ცვალე ფონი</button>
+    </form>
+
+    <script>
+        document.getElementById("colorForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const favoriteColor = document.getElementById("favoriteColor").value;
+            document.body.style.backgroundColor = favoriteColor;
+        });
+    </script>
+</body>
+</html>

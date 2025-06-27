@@ -1,0 +1,55 @@
+<script>
+// 7. Show a confirm box asking a question
+  let answer1 = confirm("Do you like JavaScript?");
+  console.log("Answer1:", answer1);
+
+// 9. Display confirm box on page load and show alert
+  window.onload = function () {
+    let answer2 = confirm("Are you ready?");
+    alert("Answer2: " + answer2);
+  };
+</script>
+
+<!-- 8. Confirm box on button click -->
+<button onclick="showConfirm()">Click for Confirm</button>
+<script>
+  function showConfirm() {
+    let result = confirm("Do you want to continue?");
+    console.log("Button Confirm Result:", result);
+  }
+</script>
+
+<form onsubmit="logUsername(event)">
+  <input type="text" name="username" placeholder="Username">
+  <button type="submit">Submit</button>
+</form>
+
+<br>
+
+<input type="text" name="email" placeholder="Email" id="emailInput">
+<button onclick="clearEmail()">Clear Email</button>
+
+<br><br>
+
+<input type="text" name="phone" placeholder="Phone" id="phoneInput">
+<button onclick="alertPhone()">Show Phone</button>
+
+<script>
+// 10. On form submit, log username
+  function logUsername(event) {
+    event.preventDefault();
+    const username = document.querySelector('input[name="username"]').value;
+    console.log("Username:", username);
+  }
+
+// 11. Clear email input
+  function clearEmail() {
+    document.querySelector('input[name="email"]').value = "";
+  }
+
+// 12. Alert phone input value
+  function alertPhone() {
+    const phone = document.querySelector('input[name="phone"]').value;
+    alert("Phone: " + phone);
+  }
+</script>

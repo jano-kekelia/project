@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დავალება 1</title>
+</head>
+<body>
+    <form id="agePhraseForm">
+        <label for="age">თქვენი ასაკი: </label>
+        <input type="number" id="age" required>
+        <br>
+        <label for="phrase">თქვენი საყვარელი ფრაზა: </label>
+        <input type="text" id="phrase" required>
+        <br>
+        <button type="submit">დადასტურება</button>
+    </form>
+
+    <h2 id="result"></h2>
+
+    <script>
+        document.getElementById("agePhraseForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const age = document.getElementById("age").value;
+            const phrase = document.getElementById("phrase").value;
+            document.getElementById("result").textContent = `თქვენი ასაკია ${age} და საყვარელი ფრაზაა: ${phrase}`;
+        });
+    </script>
+</body>
+</html>

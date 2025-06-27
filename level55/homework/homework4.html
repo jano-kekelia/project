@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დავალება 4</title>
+</head>
+<body>
+    <textarea id="message" rows="4" cols="50"></textarea>
+    <br>
+    <button id="submitMessage">შეტყობინების გაგზავნა</button>
+
+    <p id="displayMessage"></p>
+
+    <script>
+        document.getElementById("submitMessage").addEventListener("click", function() {
+            const message = document.getElementById("message").value;
+            document.getElementById("displayMessage").textContent = message;
+            document.body.style.backgroundColor = "lightyellow"; // ფონზე ფერი იცვლება
+        });
+    </script>
+</body>
+</html>

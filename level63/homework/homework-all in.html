@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+  <div id="container"></div>
+
+  <script>
+    
+    const paragraph = document.createElement("p");
+    paragraph.textContent = "This is a new paragraph.";                                // 1. Create a new <p> element and add it to the body
+    document.body.appendChild(paragraph);
+
+    
+    const heading = document.createElement("h1");
+    heading.textContent = "Hello from H1!";
+    const containerDiv = document.getElementById("container");               // 2. Create an <h1> element with text and append it to a <div>
+    containerDiv.appendChild(heading);
+
+    const image = document.createElement("img");
+    image.src = "https://via.placeholder.com/150";                       // 3. Create an <img> element and set its src
+    image.alt = "Sample Image";
+    document.body.appendChild(image);
+
+    const button = document.createElement("button");
+    button.textContent = "Click me";                               // 4. Create a <button> with the text "Click me" and add it to the body
+    document.body.appendChild(button);
+
+    
+    const list = document.createElement("ul");                // 5. Create a <ul> and add three <li> items
+
+    const item1 = document.createElement("li"); 
+    item1.textContent = "Item 1";
+    list.appendChild(item1);                              
+
+    const item2 = document.createElement("li");
+    item2.textContent = "Item 2";
+    list.appendChild(item2);
+
+    const item3 = document.createElement("li");
+    item3.textContent = "Item 3";
+    list.appendChild(item3);
+
+    document.body.appendChild(list);
+  </script>
+
+</body>
+</html>
